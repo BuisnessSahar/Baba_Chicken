@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="98" fill="#8B0000" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#e67e22" stroke-width="2"/>
+  <!-- תרנגול פשוט -->
+  <ellipse cx="100" cy="115" rx="30" ry="28" fill="#fff"/>
+  <circle cx="100" cy="76" r="18" fill="#fff"/>
+  <!-- כרב -->
+  <path d="M95 62 Q100 50 105 62 Q110 54 107 68 Q100 64 93 68 Q90 54 95 62Z" fill="#e67e22"/>
+  <!-- עיניים -->
+  <circle cx="106" cy="73" r="3" fill="#8B0000"/>
+  <circle cx="94" cy="73" r="3" fill="#8B0000"/>
+  <!-- מקור -->
+  <path d="M97 80 L103 80 L100 86Z" fill="#e67e22"/>
+  <!-- רגליים -->
+  <line x1="90" y1="143" x2="85" y2="158" stroke="#e67e22" stroke-width="3"/>
+  <line x1="110" y1="143" x2="115" y2="158" stroke="#e67e22" stroke-width="3"/>
+  <line x1="85" y1="158" x2="78" y2="162" stroke="#e67e22" stroke-width="2"/>
+  <line x1="85" y1="158" x2="88" y2="164" stroke="#e67e22" stroke-width="2"/>
+  <line x1="115" y1="158" x2="122" y2="162" stroke="#e67e22" stroke-width="2"/>
+  <line x1="115" y1="158" x2="112" y2="164" stroke="#e67e22" stroke-width="2"/>
+  <!-- כנף -->
+  <path d="M70 110 Q60 120 70 130 Q80 115 100 115Z" fill="#f5f5f5"/>
+  <path d="M130 110 Q140 120 130 130 Q120 115 100 115Z" fill="#f5f5f5"/>
+  <!-- טקסט -->
+  <text x="100" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff">באבא עוף</text>
+  <text x="100" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e67e22">גריל ישראלי אמיתי</text>
+</svg>

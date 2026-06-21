@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# יש להחליף את ה-URL לכתובת האתר הסופית לאחר העלאה
+Sitemap: https://USERNAME.github.io/REPOSITORY-NAME/sitemap.xml

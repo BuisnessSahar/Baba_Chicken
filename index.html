@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- כותרת SEO בעברית -->
+  <title>באבא עוף | מסעדת עוף, גריל ואוכל ביתי ישראלי - חולון</title>
+
+  <!-- תיאור מטא בעברית -->
+  <meta name="description" content="באבא עוף היא מסעדה ישראלית עם מנות עוף, גריל, תוספות חמות, אוכל ביתי, תפריט עשיר, ביקורות לקוחות ואפשרות להזמנה טלפונית או הזמנת מקום. התנאים 5, חולון." />
+  <meta name="keywords" content="באבא עוף, מסעדה חולון, מסעדת עוף, גריל ישראלי, אוכל ביתי, תפריט עוף, הזמנת מקום" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="באבא עוף" />
+
+  <!-- כתובת קנונית — יש להחליף ב-URL הסופי לאחר העלאה לגיטהאב -->
+  <link rel="canonical" href="https://USERNAME.github.io/REPOSITORY-NAME/" />
+
+  <!-- Open Graph לשיתוף בוואטסאפ ופייסבוק -->
+  <meta property="og:title" content="באבא עוף | מסעדת עוף, גריל ואוכל ביתי ישראלי" />
+  <meta property="og:description" content="מנות עוף, גריל ותוספות חמות באווירה ישראלית, טרייה ומשפחתית. התנאים 5, חולון. טלפון: 03-505-1212" />
+  <meta property="og:type" content="restaurant" />
+  <!-- יש להחליף את ה-URL לאחר העלאה -->
+  <meta property="og:url" content="https://USERNAME.github.io/REPOSITORY-NAME/" />
+  <meta property="og:image" content="assets/images/logo.png" />
+  <meta property="og:locale" content="he_IL" />
+  <meta property="og:site_name" content="באבא עוף" />
+
+  <!-- תגיות Twitter / Social Preview -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="באבא עוף | מסעדת עוף, גריל ואוכל ביתי ישראלי" />
+  <meta name="twitter:description" content="מנות עוף, גריל ותוספות חמות באווירה ישראלית ומשפחתית. חולון." />
+  <meta name="twitter:image" content="assets/images/logo.png" />
+
+  <!-- גופן עברי מגוגל -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Frank+Ruhl+Libre:wght@700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- נתוני JSON-LD מובנים לגוגל — Restaurant Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "באבא עוף",
+    "alternateName": "באבא עוף - גריל ישראלי אמיתי",
+    "description": "מסעדת עוף, גריל ואוכל ביתי באווירה ישראלית חמה ומשפחתית. מנות עוף טריות, גריל, תוספות חמות, סלטים ועסקיות.",
+    "telephone": "03-505-1212",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "התנאים 5",
+      "addressLocality": "חולון",
+      "addressCountry": "IL"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday","Monday","Tuesday","Wednesday","Thursday"],
+        "opens": "11:00",
+        "closes": "22:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "10:00",
+        "closes": "15:00"
+      }
+    ],
+    "servesCuisine": ["Israeli","Chicken","Grill","Middle Eastern"],
+    "priceRange": "₪₪",
+    "image": "assets/images/logo.png",
+    "url": "https://USERNAME.github.io/REPOSITORY-NAME/"
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ===== כותרת עליונה ===== -->
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+
+      <a href="#top" class="logo-link" aria-label="באבא עוף - עמוד הבית">
+        <img src="assets/images/logo.png" alt="לוגו באבא עוף" class="logo-img" />
+        <span class="logo-text">באבא עוף</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="ניווט ראשי">
+        <ul class="nav-list">
+          <li><a href="#top" class="nav-link">בית</a></li>
+          <li><a href="#about" class="nav-link">על המסעדה</a></li>
+          <li><a href="#menu" class="nav-link">תפריט</a></li>
+          <li><a href="#reviews" class="nav-link">ביקורות</a></li>
+          <li><a href="#reservation" class="nav-link">הזמנת מקום</a></li>
+          <li><a href="#contact" class="nav-link">צור קשר</a></li>
+        </ul>
+      </nav>
+
+      <!-- כפתור המבורגר למובייל -->
+      <button class="hamburger" id="hamburger-btn" aria-label="פתח תפריט ניווט" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== סקשן הירו ===== -->
+  <section class="hero" id="hero" aria-label="ברוכים הבאים לבאבא עוף">
+    <!-- אנימציית אמוג'י אוכל צפה ברקע -->
+    <div class="hero-food-bg" aria-hidden="true">
+      <span class="food-emoji">🍗</span>
+      <span class="food-emoji">🔥</span>
+      <span class="food-emoji">🥙</span>
+      <span class="food-emoji">🍖</span>
+      <span class="food-emoji">🌿</span>
+      <span class="food-emoji">🍋</span>
+      <span class="food-emoji">🧄</span>
+      <span class="food-emoji">🥗</span>
+    </div>
+    <div class="hero-content container">
+      <div class="hero-badge">כשר | גריל ישראלי אמיתי</div>
+      <!-- H1 ראשי — חשוב ל-SEO -->
+      <h1 class="hero-title">באבא עוף<br /><span>טעם של בית בכל ביס</span></h1>
+      <p class="hero-subtitle">מנות עוף, גריל ותוספות חמות באווירה ישראלית, טרייה ומשפחתית.</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">צפייה בתפריט</a>
+        <a href="tel:03-505-1212" class="btn btn-secondary">📞 התקשר להזמנה</a>
+      </div>
+    </div>
+    <!-- חץ גלילה -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>גלול למטה</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== סקשן אודות ===== -->
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">אודות</div>
+        <h2 id="about-title" class="section-title">על מסעדת באבא עוף</h2>
+        <p class="section-subtitle">מסעדה ישראלית חמה ומשפחתית מחולון</p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-lead">
+            באבא עוף היא מסעדה ישראלית חמה ומשפחתית שמגישה מנות עוף, גריל ותוספות טריות באווירה ביתית ונעימה.
+            אצלנו הדגש הוא על חומרי גלם טובים, טעם מדויק, שירות מהיר וחוויה שכיף לחזור אליה.
+          </p>
+          <p>
+            מסעדת באבא עוף פועלת בחולון ומציעה תפריט מגוון שכולל מנות עוף טריות, גריל ביתי, תוספות חמות,
+            סלטים עשירים ועסקיות משתלמות. אנחנו מאמינים שאוכל טוב לא חייב להיות מסובך — רק טרי, טעים ועם אהבה.
+          </p>
+          <div class="about-highlight">
+            <span class="highlight-badge">כשר למהדרין</span>
+            <span class="highlight-badge">איסוף עצמי</span>
+            <span class="highlight-badge">משלוחים</span>
+          </div>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">🌿</div>
+            <h3>טריות בכל מנה</h3>
+            <p>חומרי גלם טריים בכל יום</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">⚡</div>
+            <h3>שירות מהיר ואדיב</h3>
+            <p>הזמנה מוכנה עד 10 דקות</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">🏠</div>
+            <h3>אוכל ביתי</h3>
+            <p>טעם של בית, חם ומזין</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">👨‍👩‍👧‍👦</div>
+            <h3>מתאים למשפחות</h3>
+            <p>מנות גדולות לכל הגיל</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">🛵</div>
+            <h3>משלוחים ואיסוף</h3>
+            <p>נוח, מהיר ובמחיר טוב</p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">💼</div>
+            <h3>עסקיות משתלמות</h3>
+            <p>ארוחות עסקיות מ-53 ₪</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== סקשן תפריט ===== -->
+  <section class="menu-section" id="menu" aria-labelledby="menu-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">תפריט</div>
+        <h2 id="menu-title" class="section-title">תפריט באבא עוף</h2>
+        <p class="section-subtitle">מנות עוף, גריל, תוספות, סלטים ועסקיות — הכל טרי וביתי</p>
+      </div>
+
+      <!-- כפתורי סינון קטגוריות -->
+      <div class="filter-buttons" role="group" aria-label="סינון תפריט לפי קטגוריה">
+        <button class="filter-btn active" data-filter="all">הכל</button>
+        <button class="filter-btn" data-filter="chicken">עוף</button>
+        <button class="filter-btn" data-filter="grill">גריל</button>
+        <button class="filter-btn" data-filter="sides">תוספות</button>
+        <button class="filter-btn" data-filter="salads">סלטים</button>
+        <button class="filter-btn" data-filter="drinks">שתייה</button>
+        <button class="filter-btn" data-filter="business">עסקיות</button>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+
+        <!-- עוף -->
+        <article class="menu-card" data-category="chicken">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🍢</span><span class="placeholder-text">שיפודי עוף</span></div>
+            <span class="menu-card-category-tag">עוף</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">שיפודי עוף</h3>
+            <p class="menu-card-desc">שיפודי עוף טריים, מתובלים ועסיסיים מהגריל</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="chicken">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🐓</span><span class="placeholder-text">עוף שלם</span></div>
+            <span class="menu-card-category-tag">עוף</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">עוף שלם מהגריל</h3>
+            <p class="menu-card-desc">עוף שלם, מתובל בתבלינים ביתיים, צלוי בגריל</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal reveal-delay-1" data-category="chicken">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🍗</span><span class="placeholder-text">חזה עוף</span></div>
+            <span class="menu-card-category-tag">עוף</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">חזה עוף צלוי</h3>
+            <p class="menu-card-desc">חזה עוף עסיסי, צלוי עם שמן זית ותבלינים</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal reveal-delay-2" data-category="chicken">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🍖</span><span class="placeholder-text">כנפיים</span></div>
+            <span class="menu-card-category-tag">עוף</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">כנפיים פריכות</h3>
+            <p class="menu-card-desc">כנפיים פריכות ועסיסיות בציפוי תבלינים ביתי</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- גריל -->
+        <article class="menu-card reveal" data-category="grill">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🥩</span><span class="placeholder-text">קבב גריל</span></div>
+            <span class="menu-card-category-tag">גריל</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">קבב עוף גריל</h3>
+            <p class="menu-card-desc">קבב עוף טרי, עם תבלינים מיוחדים ישר מהגריל</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal reveal-delay-1" data-category="grill">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🔥</span><span class="placeholder-text">מיקס גריל</span></div>
+            <span class="menu-card-category-tag">גריל</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">מיקס גריל</h3>
+            <p class="menu-card-desc">מבחר שיפודים, קבב וכנפיים ישר מהגריל</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- תוספות -->
+        <article class="menu-card reveal" data-category="sides">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🍟</span><span class="placeholder-text">צ'יפס</span></div>
+            <span class="menu-card-category-tag">תוספות</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">צ'יפס ביתי</h3>
+            <p class="menu-card-desc">צ'יפס פריך ועבה בהכנה ביתית</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal reveal-delay-1" data-category="sides">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🍚</span><span class="placeholder-text">אורז</span></div>
+            <span class="menu-card-category-tag">תוספות</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">אורז ביתי</h3>
+            <p class="menu-card-desc">אורז לבן רך עם שמן זית ותבלינים</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal reveal-delay-2" data-category="sides">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🫓</span><span class="placeholder-text">פיתה</span></div>
+            <span class="menu-card-category-tag">תוספות</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">פיתה טרייה</h3>
+            <p class="menu-card-desc">פיתה טרייה וחמה ישר מהתנור</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- סלטים -->
+        <article class="menu-card reveal" data-category="salads">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🥗</span><span class="placeholder-text">סלט ירקות</span></div>
+            <span class="menu-card-category-tag">סלטים</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">סלט ירקות טרי</h3>
+            <p class="menu-card-desc">סלט ירקות טריים קצוצים דק עם לימון ושמן זית</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal reveal-delay-1" data-category="salads">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🫘</span><span class="placeholder-text">חומוס</span></div>
+            <span class="menu-card-category-tag">סלטים</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">חומוס ביתי</h3>
+            <p class="menu-card-desc">חומוס קרמי עם טחינה, שמן זית ופטרוזיליה</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- שתייה -->
+        <article class="menu-card reveal" data-category="drinks">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🥤</span><span class="placeholder-text">שתייה קרה</span></div>
+            <span class="menu-card-category-tag">שתייה</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">שתייה קרה</h3>
+            <p class="menu-card-desc">מגוון שתייה קרה — מיצים, קולה, מים ועוד</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- עסקיות -->
+        <article class="menu-card featured reveal" data-category="business">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">🍽️</span><span class="placeholder-text">עסקית תפריל</span></div>
+            <span class="menu-card-category-tag">עסקית</span>
+            <span class="menu-card-badge">מומלץ</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">עסקית תפריל</h3>
+            <p class="menu-card-desc">מנה עיקרית + תוספת + סלט + שתייה. הכי משתלם!</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price price-highlight">53 ₪</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal reveal-delay-1" data-category="business">
+          <div class="menu-card-img-wrap">
+            <div class="menu-card-img-placeholder"><span class="placeholder-emoji">👫</span><span class="placeholder-text">עסקית זוגית</span></div>
+            <span class="menu-card-category-tag">עסקית</span>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-title">עסקית זוגית</h3>
+            <p class="menu-card-desc">שתי מנות עיקריות + תוספות + סלטים + שתייה לשניים</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">מחיר יעודכן בהמשך</span>
+              <a href="tel:03-505-1212" class="btn-order">להזמנה טלפונית</a>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /menu-grid -->
+    </div>
+  </section>
+
+  <!-- ===== סקשן ביקורות ===== -->
+  <section class="reviews-section" id="reviews" aria-labelledby="reviews-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">ביקורות</div>
+        <h2 id="reviews-title" class="section-title">מה אומרים הלקוחות שלנו</h2>
+        <p class="section-subtitle">5 כוכבים בגוגל — באבא עוף אוהב את הלקוחות שלו</p>
+        <div class="overall-rating" aria-label="דירוג כולל 5 כוכבים">
+          <span class="stars-big" aria-hidden="true">★★★★★</span>
+          <span class="rating-number">5.0</span>
+          <span class="rating-source">Google</span>
+        </div>
+      </div>
+
+      <div class="reviews-grid">
+
+        <article class="review-card" aria-label="ביקורת של אלירן">
+          <div class="review-header">
+            <div class="reviewer-avatar" aria-hidden="true">א</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">אלירן</span>
+              <span class="reviewer-date">לפני 9 חודשים</span>
+            </div>
+            <div class="review-stars" aria-label="דירוג 5 כוכבים">★★★★★</div>
+          </div>
+          <p class="review-text">"חוויה של פעם ממש טעים! אוכל מדויק, שירות מהיר ומנות נדיבות. מומלץ מאוד לכל מי שמחפש אוכל ביתי טוב בחולון."</p>
+          <span class="review-platform">Google Maps</span>
+        </article>
+
+        <article class="review-card" aria-label="ביקורת של עמירם זדה">
+          <div class="review-header">
+            <div class="reviewer-avatar" aria-hidden="true">ע</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">עמירם זדה</span>
+              <span class="reviewer-date">לפני 11 חודשים</span>
+            </div>
+            <div class="review-stars" aria-label="דירוג 5 כוכבים">★★★★★</div>
+          </div>
+          <p class="review-text">"אחלה מקום לארוחת צהריים! הכל טרי וחם, האווירה נעימה והשירות מהיר. אני חוזר לכאן בכל הזדמנות."</p>
+          <span class="review-platform">Google Maps</span>
+        </article>
+
+        <article class="review-card" aria-label="ביקורת של עמית צמח">
+          <div class="review-header">
+            <div class="reviewer-avatar" aria-hidden="true">ע</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">עמית צמח</span>
+              <span class="reviewer-date">לפני 10 חודשים</span>
+            </div>
+            <div class="review-stars" aria-label="דירוג 5 כוכבים">★★★★★</div>
+          </div>
+          <p class="review-text">"הגענו קבוצה של 3-4 אנשים, זמן המתנה עד 10 דקות, מקומות חנייה בשפע. העוף היה מצוין, התוספות טעימות. ממליץ בחום!"</p>
+          <span class="review-platform">Google Maps</span>
+        </article>
+
+        <article class="review-card" aria-label="ביקורת נוספת">
+          <div class="review-header">
+            <div class="reviewer-avatar" aria-hidden="true">ר</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">רחל מ.</span>
+              <span class="reviewer-date">לפני 6 חודשים</span>
+            </div>
+            <div class="review-stars" aria-label="דירוג 5 כוכבים">★★★★★</div>
+          </div>
+          <p class="review-text">"הזמנו לאיסוף עצמי, הכל היה מוכן מהר ומקופל יפה. מנות גדולות, טריות, טעמים מדויקים. חוזרים בטוח!"</p>
+          <span class="review-platform">Google Maps</span>
+        </article>
+
+      </div>
+
+      <div class="reviews-cta">
+        <p>גם אתם היתם אצלנו? נשמח לשמוע!</p>
+        <a href="https://search.google.com/local/writereview?placeid=ChIJ" target="_blank" rel="noopener noreferrer" class="btn btn-outline">כתבו ביקורת בגוגל ⭐</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== סקשן הזמנת מקום ===== -->
+  <section class="reservation-section" id="reservation" aria-labelledby="reservation-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">הזמנה</div>
+        <h2 id="reservation-title" class="section-title">הזמנת מקום בבאבא עוף</h2>
+        <p class="section-subtitle">מלאו את הטופס ונחזור אליכם לאישור תוך שעה</p>
+      </div>
+
+      <!-- הודעת הצלחה -->
+      <div class="form-success" id="form-success" role="alert" aria-live="polite" style="display:none;">
+        <div class="success-inner">
+          <span class="success-icon" aria-hidden="true">✅</span>
+          <h3>תודה! בקשת ההזמנה נשלחה לוואטסאפ 💬</h3>
+          <p>פתחנו לכם חלון וואטסאפ עם פרטי ההזמנה — שלחו את ההודעה למנהל ותקבלו אישור בהקדם.<br/>לשאלות דחופות: <a href="tel:03-505-1212">03-505-1212</a></p>
+          <button class="btn btn-primary" id="close-success-btn" type="button">הבנתי, תודה</button>
+        </div>
+      </div>
+
+      <form class="reservation-form" id="reservation-form" novalidate aria-label="טופס הזמנת מקום">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">שם פרטי <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="first-name" name="firstName" required placeholder="שם פרטי" autocomplete="given-name" />
+            <span class="field-error" id="first-name-error" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="last-name">שם משפחה <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="last-name" name="lastName" required placeholder="שם משפחה" autocomplete="family-name" />
+            <span class="field-error" id="last-name-error" role="alert"></span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">מספר טלפון <span class="required" aria-hidden="true">*</span></label>
+            <input type="tel" id="phone" name="phone" required placeholder="05X-XXX-XXXX" autocomplete="tel" />
+            <span class="field-error" id="phone-error" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="guests">מספר סועדים <span class="required" aria-hidden="true">*</span></label>
+            <input type="number" id="guests" name="guests" required min="1" max="20" placeholder="כמה אנשים?" />
+            <span class="field-error" id="guests-error" role="alert"></span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="res-date">תאריך <span class="required" aria-hidden="true">*</span></label>
+            <input type="date" id="res-date" name="date" required />
+            <span class="field-error" id="date-error" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="res-time">שעה <span class="required" aria-hidden="true">*</span></label>
+            <input type="time" id="res-time" name="time" required min="10:00" max="21:30" />
+            <span class="field-error" id="time-error" role="alert"></span>
+          </div>
+        </div>
+
+        <div class="form-group full-width">
+          <label for="notes">הערות (לא חובה)</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="בקשות מיוחדות, אלרגיות, מושב מועדף..."></textarea>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary btn-large">שלח בקשת הזמנה</button>
+          <p class="form-note">* שדות חובה. ההזמנה מותנית באישור טלפוני.</p>
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== סקשן צור קשר ===== -->
+  <section class="contact-section" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">צור קשר</div>
+        <h2 id="contact-title" class="section-title">צור קשר עם באבא עוף</h2>
+        <p class="section-subtitle">נשמח לענות על כל שאלה</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📍</span>
+            <div>
+              <strong>כתובת</strong>
+              <address>התנאים 5, חולון</address>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📞</span>
+            <div>
+              <strong>טלפון</strong>
+              <a href="tel:03-505-1212" class="contact-phone">03-505-1212</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">🕐</span>
+            <div>
+              <strong>שעות פעילות</strong>
+              <ul class="hours-list">
+                <li><span>ראשון — חמישי</span><span>11:00 – 22:00</span></li>
+                <li><span>שישי</span><span>10:00 – 15:00</span></li>
+                <li><span>שבת</span><span class="closed">סגור</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="tel:03-505-1212" class="btn btn-primary">📞 התקשר לבאבא עוף</a>
+            <!-- קישור וואטסאפ — מספר: 03-505-1212 בפורמט בין-לאומי -->
+            <a href="https://wa.me/97235051212" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">💬 שלח הודעת וואטסאפ</a>
+            <!-- קישור ניווט Google Maps — יש להחליף בקישור מדויק לאחר פתיחת Business Profile -->
+            <a href="https://maps.google.com/?q=התנאים+5+חולון" target="_blank" rel="noopener noreferrer" class="btn btn-outline">🗺️ ניווט עם Google Maps</a>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <!-- iframe מפה — יש להחליף ב-embed URL אמיתי מגוגל מפס -->
+          <iframe
+            src="https://maps.google.com/maps?q=התנאים+5,+חולון&output=embed&z=16"
+            width="100%"
+            height="380"
+            style="border:0; border-radius: 16px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="מיקום באבא עוף על המפה — התנאים 5, חולון"
+            aria-label="מפת גוגל עם מיקום המסעדה"
+          ></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== פוטר ===== -->
+  <footer class="site-footer" aria-label="פוטר האתר">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#top" class="footer-logo-link" aria-label="באבא עוף - חזרה לראש הדף">
+            <img src="assets/images/logo.png" alt="לוגו באבא עוף" class="footer-logo" />
+            <span class="footer-brand-name">באבא עוף</span>
+          </a>
+          <p class="footer-tagline">באבא עוף — אוכל טוב, שירות טוב, חוויה טובה.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="ניווט מהיר בפוטר">
+          <h3 class="footer-heading">ניווט מהיר</h3>
+          <ul class="footer-links">
+            <li><a href="#top">בית</a></li>
+            <li><a href="#about">על המסעדה</a></li>
+            <li><a href="#menu">תפריט</a></li>
+            <li><a href="#reviews">ביקורות</a></li>
+            <li><a href="#reservation">הזמנת מקום</a></li>
+            <li><a href="#contact">צור קשר</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-contact-col">
+          <h3 class="footer-heading">פרטי התקשרות</h3>
+          <ul class="footer-contact-list">
+            <li>📍 התנאים 5, חולון</li>
+            <li>📞 <a href="tel:03-505-1212">03-505-1212</a></li>
+            <li>🕐 א'–ה': 11:00–22:00</li>
+            <li>🕐 ו': 10:00–15:00</li>
+            <li>🚫 שבת: סגור</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 מסעדת באבא עוף — גריל ישראלי אמיתי. כל הזכויות שמורות.</p>
+        <p class="footer-kosher">כשר למהדרין</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
